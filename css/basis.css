@@ -1,0 +1,26 @@
+body {
+	background: #b9bd91;
+}
+#header {
+	font-size: 50px;
+	font-family: terminal, monospace;
+	font-weight: bold;
+	margin: 1% auto;
+	color: #FBC624;
+	text-align: center;
+}
+
+#content {
+	font-size: 20px;
+	font-family: terminal, monospace;
+	font-weight: bold;
+	color: #13DF13;
+	text-shadow: 2px 2px 2px #13CD13;
+	width: 80%;
+	height: 600px;
+	background: #222222;
+	padding: 25px;
+	border-radius: 15px;
+	margin: 1% auto;
+	box-shadow: inset -1px 2px 10px grey;
+}
