@@ -11,7 +11,7 @@ body {
 		
 }
 #header {
-        background-color: #ffffff;
+        background-color: #36393e;
         width: 80%;
         height: 100px;
         text-align: center;
@@ -20,7 +20,7 @@ body {
 }
 
 #navigation {
-        background-color: #424549;
+        background-color: #525559;
 		margin-top: -1.6%;
         width: 80%;
         height: 50px;
@@ -46,27 +46,31 @@ body {
 }
 #navigation button:hover {
       background-color: #009900;
-      transition: 0.4s;
+      transition: 0.1s;
 }
 #navigation ul li {
         display: inline;
-        padding-right: 10px;
+        padding-right: 15px;
 }
 
 #content {
+		margin-top: 1%;
         background-color: #ffffff;
         float: left;
         width: 80%;
         font-family: Futura Bk BT;
         height: 600px;
+		text-align: right;
         color: #000000;
 }
 #sidebar {
+		margin-top: 1%;
+		margin-left: 1%;
         font-family: Futura Bk BT;
-        background-color: #36393e;
-        float: right;
+        background-color: #727579;
+        float: left;
         color: #000000;
-        width: 20%;
+        width: 19%;
         height: 600px;
         top: 0;
 
