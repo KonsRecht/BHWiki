@@ -99,3 +99,10 @@ body {
     height: 400px;
 
 }
+#sidebar-text button {
+    opacity: 0.0;
+    background-color: rgba(0,0,0,0);
+    color: #000000;
+    text-align: center;
+    vertical-align: top;
+}
