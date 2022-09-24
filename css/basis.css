@@ -47,7 +47,7 @@ body {
         vertical-align: top;
 }
 #navigation button:hover {
-      background-color: #009900;
+      background-color: #d3d0ab;
       transition: 0.1s;
 }
 #navigation ul li {
