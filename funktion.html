@@ -16,6 +16,26 @@
 
         <div id="main_body">
           <div id="content">
+            <h2>Funktionsweise</h2>
+
+            Grundsätzlich ist jede KI gleich aufgebaut:
+            <ul>
+              <li>Ein Neurales Netzwerk, das als Gehirn fungiert.</li>
+              <li>Eine Möglichkeit, um zu messen wie gut das Netzwerk ist.</li>
+              <li>Eine Funktion, um änderungen an dem Netzwerk vorzunehemen</li>
+            </ul>
+
+            <h3>Was ist ein Neurales Netzwerk?</h3>
+            Ein neurales Netzwerk besteht aus einzelnen Punkten, auch Neuronen gennant, die Werte verändern und an andere Neuronen weitergeben oder als endgültigen Wert ausgeben.<br>
+
+            Jedes (nützliche) Netzwerk besteht aus mindestens drei Verschidenen Spalten, die aus folgenden Neuronen zusammengestezt sind:
+            <ol>
+              <li>Mindestens zwei Eingabeneuronen, die Werte einlesen können (z.B. einen Text als Befehl). </li>
+              <li>Versteckte Neuronen, die die Werte laut ihrer Werte abändern.<br> Diese Neuronen werden "versteckt" gennant, da man die Änderungen nie direkt sehen kann.</li>
+              <li>Mindestens 1 Ausgabeneuron, in dem nur der Endwert ausgegeben wird.</li>
+            </ol>
+            Die Anzahl an Neuronen und Schichten, ist jedoch meistens um einiges höher, ein Netzwerk für Bildgeneration, wie <strong><a href="https://huggingface.co/spaces/stabilityai/stable-diffusiont" target=”_blank”>Stable-Diffusion</a></strong> kann zum Beispiel mehrere Millionen Ausgabeneuronen haben um jeden Pixel zu generieren.
+
           </div>
           <div id="sidebar">
 				    <div id="sidebar-text">
