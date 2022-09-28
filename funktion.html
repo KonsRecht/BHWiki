@@ -35,6 +35,8 @@
               <li>Mindestens 1 Ausgabeneuron, in dem nur der Endwert ausgegeben wird.</li>
             </ol>
             Die Anzahl an Neuronen und Schichten, ist jedoch meistens um einiges höher, ein Netzwerk für Bildgeneration, wie <strong><a href="https://huggingface.co/spaces/stabilityai/stable-diffusiont" target=”_blank”>Stable-Diffusion</a></strong> kann zum Beispiel mehrere Millionen Ausgabeneuronen haben um jeden Pixel zu generieren.<br>
+            <br>Beispiel für eine Visualisierung eines Netzes:<br>
+            <img src="img/netz_basis.png" alt="Bild eines Netzes" width="100" height="100%">
             <br>
             <h3>Training und Entwicklung</h3>
             <br>
@@ -49,7 +51,16 @@
               Deshalb wird die Methode häufig nicht komplett zum lernen genutzt, sondern nur um einen schnelleren Start zu ermöglichen.
             <h4>Lernen durch Evolution</h4>
             <br>
-              Hierbei werden shr viele Versionen desselben Netztes mit leichten zufälligen Variationen erzeugt.
+              Hierbei werden shr viele Versionen desselben Netztes mit leichten zufälligen Variationen erzeugt.<br>
+              Nachdem alle Versionen das Testszenario einmal durchlaufen haben, wird ausgewertet, welche Version am besten war.<br>
+              Diese kommt in die nächste Runde und der Kreislauf beginnt von vorne.<br>
+              Dadurch wird die KI mit jeder Generation besse, da alle schlechten Varianten aussortert werden.<br>
+              <br>
+              Allerdings braucht man eine sehr genaue Bewertungsmethode, da sich meistens nicht so viel von Generation zu Generation ändert.<br>
+              <br>
+              <h3>Abschluss</h3>
+              <br>
+              Ich hoffe ich konnte die komplexe Welt er künstlichen Intelligenz halbwegs gut erklären,<br>um einige Beispiele zu sehen kann ich den Abschnitt <strong><a href="anwendungen.html" title="Anwendungen">Anwendungen</a></strong> empfehlen.
 
           </div>
           <div id="sidebar">
