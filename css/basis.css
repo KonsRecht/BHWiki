@@ -49,6 +49,7 @@ body {
 #navigation button:hover {
       background-color: #d3d0ab;
       transition: 0.1s;
+      color: #32cd32;
 }
 #navigation ul li {
         display: inline;
