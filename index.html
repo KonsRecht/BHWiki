@@ -1,51 +1,103 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KI Projektarbeit</title>
-        <link rel="stylesheet" type="text/css" href="css/basis.css" media"screen" />
-  </head>
-  <body style="	background-image:url(img/background.jpg);">
-        <div id="wrap">
-		
-        <div id="header">
-               <img src="img/logo.png" alt="" width="100" height="100%">
-               Künstliche Intelligenz
-        </div>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BHW</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+ </head>
+ <body>
+				<link rel="stylesheet" href="css/BildgalerieCss.css">
+				<div id="header">
+<h1>          <img src="Logo.png" alt="BHWLogo" width="50" height="50" /> &nbsp Black Hole Wiki </h1> 
+                <div id="navigation">
+<button onclick="window.location.href='BHW.html';"class="runder_button">Startseite</button>
+<button onclick="window.location.href='index.html';"class="runder_buttonS">Bildgalerie</button>
+<button onclick="window.location.href='BBHL.html';"class="runder_button">größte Schwarze Löcher</button>
+<button onclick="window.location.href='Erklärung.html';"class="runder_button">Schwarze Löcher Erklärung</button>
+<button onclick="window.location.href='SagA.html';"class="runder_button">unser Schwarzes Loch</button>
+</div>
+<div id="content">
+<img src="https://live.staticflickr.com/65535/52303461859_a60beaf88a_b.jpg" width="300" height="300">
+<img src="https://petapixel.com/assets/uploads/2022/09/for_nasa.gov_imagea-neptune-800x800.jpg" width="300" height="300">
+<img src="https://live.staticflickr.com/65535/52261919127_9b30a04653_b.jpg" width="300" height="300">
+<img src="https://live.staticflickr.com/65535/52210580092_aea1f452e7_b.jpg" width="300" height="300">
+<img src="https://live.staticflickr.com/65535/52210366419_d0c892b568_b.jpg" width="300" height="300">
+<img src="https://live.staticflickr.com/65535/52212049510_73fbea9957_b.jpg" width="300" height="300">
+<img src="https://live.staticflickr.com/943/26851117767_89e7c8b508_b.jpg" width="300" height="300">
+<img src="jwst.jpg" width="300" height="300">
+ </div>
+ <div class="cssSlider">
+ 
+  <!-- die inputs um den Slider zu Steuern -->
+  <input type="radio" name="slider" id="slide01" checked="checked">
+  <input type="radio" name="slider" id="slide02">
+  <input type="radio" name="slider" id="slide03">
+  <input type="radio" name="slider" id="slide04">
 
-        <div id="main_body">
-          <div id="content">
-            <h2>Willkommen</h2>
-            <p>Sicher habt ihr schonmal von künstlicher Intelligenz gehört,<br>
-            doch wie genau funktioniert das eigentlich und warum sollte man die ganze Arbeit und Zeit investieren?<br></p>
+  <ul class="sliderElements">
+      <li>
+          <figure>
+              <img src="https://live.staticflickr.com/943/26851117767_89e7c8b508_b.jpg" height="400" width="400">
+              <figcaption>Hier könnte deine Beschreibung stehen.</figcaption>
+          </figure>
+      </li>
+      <li>
+          <figure>
+              <img src="https://live.staticflickr.com/65535/52212049510_73fbea9957_b.jpg" height="400" width="400">
+              <figcaption>Eine tolle Beschreibung</figcaption>
+          </figure>
+      </li>
+      <li>
+          <figure>
+              <img src="https://live.staticflickr.com/65535/52210366419_d0c892b568_b.jpg" height="400" width="400">
+              <figcaption>Die Beschreibung zum dritten Bild</figcaption>
+          </figure>
+      </li>
+      <li>
+          <figure>
+              <img src="https://live.staticflickr.com/65535/52210580092_aea1f452e7_b.jpg" height="400" width="400">
+              <figcaption>Und noch ein toller Untertitel</figcaption>
+          </figure>
+      </li>
+      <li>
+        <figure>
+            <img src="https://live.staticflickr.com/65535/52261919127_9b30a04653_b.jpg" height="400" width="400">
+            <figcaption>Hier könnte deine Beschreibung stehen.</figcaption>
+        </figure>
+    </li><li>
+        <figure>
+            <img src="https://petapixel.com/assets/uploads/2022/09/for_nasa.gov_imagea-neptune-800x800.jpg" height="400" width="400">
+            <figcaption>Hier könnte deine Beschreibung stehen.</figcaption>
+        </figure>
+    </li><li>
+        <figure>
+            <img src="https://live.staticflickr.com/65535/52303461859_a60beaf88a_b.jpg" height="400" width="400">
+            <figcaption>Hier könnte deine Beschreibung stehen.</figcaption>
+        </figure>
+    </li><li>
+        <figure>
+            <img src="jwst.jpg" height="400" width="400">
+            <figcaption>Hier könnte deine Beschreibung stehen.</figcaption>
+        </figure>
+    </li>
+  </ul>
 
-            <p>Künstliche Intelligenz hat viele Vorteile gegenüber traditionellen Algorithmen, mehr dazu könnt ihr unter <strong><a href="anwendungen.html" title="Anwendungen">Anwendungen</a></strong> lesen.<br><br>
-            Einer der besten Gründe, warum man Künstliche Intelligenz verwenden sollte, ist die Fähigkeit des Programms, sich selbst zu verbssern und zu lernen.
-            Allerdings gibt es nicht nur Vorteile, zum Beispiel dauert das Lernen lange und benötigt viel Leistung, da man häufig viele tausend Iterationen braucht. (<strong><a href="funktion.html" title="Funktionsweise und Methoden">Funktionsweise</a></strong>)<br></p>
-
-            Eine eigene KI zu erstellen, die einfache Aufgaben lösen soll, ist aber gar nicht so schwer zu erstellen solange man weiß wie es fnktioniert.<br><br>
-            
-          </div>
-          <div id="sidebar">
-				    <div id="sidebar-text">
-					
-					    <h1>News</h1>
-              <hr width="400px;" color="black" size="2">
-					    DALL-E 2 jetzt auch für alle als Beta verfügbar, man muss sich jedoch anmelden und es kann etwas dauern.<br><br>
-              <strong><a href="https://labs.openai.com/waitlist" target=”_blank”>Hier kann man sich für die Teilnahme bewerben</a></strong>
-              <hr width="400px;" color="black" size="2">
-
-				    </div>
-          </div>
-        </div>
-        <div id="navigation">            
-                <ul>
-                <li><button style="background-color: #b1ad79;" onclick="window.location.href = 'index.html'";>Startseite</button></li>
-                <li><button onclick="window.location.href = 'funktion.html';">Funktionsweise</button></li>
-				  <li><button onclick="window.location.href = 'anwendungen.html';">Anwendungen</button></li>
-				<li><button onclick="window.location.href = 'quellen.html';">Quellen</button></li>
-                </ul>
-        </div>
+  <!-- Eine Steuerung -->
+  <ul class="sliderControls">
+      <li><label for="slide01">1</label></li>
+      <li><label for="slide02">2</label></li>
+      <li><label for="slide03">3</label></li>
+      <li><label for="slide04">4</label></li>
+  </ul>
+</div>
+  <div id="sidebar">
+    Nachichten:
+    <button onclick="window.location.href='https://youtu.be/ordYJkN9Pc8';"class="runder_button2" title="zu einem Video zum Thema">James Webb Teleskop wiederlegte eventuell Urknalltheorie <br> 27.08.2022 <br> <br></button>  
+    <button onclick="window.location.href='https://youtu.be/Z13SgTvq5Yc';"class="runder_button2" title="zur Tonaufnahme">NASA gelingt Tonaufname vom schwarzen Lochs des Perseusgalaxiehaufens <br> 24.08.2022 <br> <br></button>
+    <button onclick="window.location.href='https://upload.wikimedia.org/wikipedia/commons/1/15/Sag_A%2A.jpg';"class="runder_button2" target="blank" title="zum Bild">Event Horizon Telescope machte erstes Bild des Schwarzen Lochs in der Mitte der Milchstraße, Sagitarius A* <br>  12.05.2022 <br> <br></button>
+  </div>
   </body>
 </html>
