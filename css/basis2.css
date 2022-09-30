@@ -59,7 +59,7 @@ p  {
 	background-color: #BF8A6A;
 	float: left;
 	width: 80%;
-	height: 590px;
+	height: 700px;
     text-align: left;
 }
 #sidebar{
@@ -67,7 +67,7 @@ p  {
 	background-color: #A3BAC0;
 	float: right;
 	width: 20%;
-	height: 590px;
+	height: 700px;
 	top: 0;
     font-family: Poppins;
 	text-decoration: none;

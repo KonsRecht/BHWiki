@@ -24,6 +24,7 @@ p  {
       color: #140005;
       font-size: 1.3em;
 	  width: 80%;
+	  height: 600px;
 }
 #wrap{
  	float: left;
@@ -51,7 +52,7 @@ p  {
 #navigation ul {
 	list-style-type: none;
 }
-	#navigation ul li {
+#navigation ul li {
 	display: inline;
 	padding: 20px;
 }
@@ -59,15 +60,23 @@ p  {
 	background-color: #BF8A6A;
 	float: left;
 	width: 80%;
-	height: 800px;
+	height: 700px;
     text-align: left;
+}
+#contentBBHL{
+	background-color: #BF8A6A;
+	float: left;
+	width: 80%;
+	height: 700px;
+    text-align: left;
+	font-size: 1.2em;
 }
 #sidebar{
 	margin-top: 10px;
 	background-color: #A3BAC0;
 	float: right;
 	width: 20%;
-	height: 800px;
+	height: 700px;
 	top: 0;
     font-family: Poppins;
 	text-decoration: none;
